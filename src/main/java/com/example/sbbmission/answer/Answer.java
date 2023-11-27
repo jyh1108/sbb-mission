@@ -1,5 +1,6 @@
-package com.example.sbbmission;
+package com.example.sbbmission.answer;
 
+import com.example.sbbmission.question.Question;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

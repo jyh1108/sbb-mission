@@ -40,13 +40,15 @@ dependencies {
 
     // 타임리프(뷰)
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
-
+    implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect'
     // 테스트
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     // h2 db
     runtimeOnly 'com.h2database:h2'
     //jpa
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
 }
 
 tasks.named('bootBuildImage') {
